@@ -3,9 +3,11 @@ Serves 2 purposes
 1. A website that keeps track of global top scores, which can be posted to by sending a zeroMQ message
 2. A rank retrieval service, that when a run is submitted to the leaderboard, a message is sent giving the leaderboard position for that run
 
+view website: http://flip2.engr.oregonstate.edu:13375/
+
 ## Communication Contract
 ### Prerequisites
-- ZeroMQ is required for messageing. Set up ZeroMQ for whatever language used.
+- ZeroMQ is required for messaging. Set up ZeroMQ for whatever language used.
 - In it's current state, it runs off of OSU's mysql database, so the website itself needs to be run off of the school's service, which means you must be connected to OSU's VPN.
 
 ### Requesting/Sending
