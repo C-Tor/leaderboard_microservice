@@ -1,5 +1,5 @@
 # leaderboard_microservice
-serves 2 purposes
+Serves 2 purposes
 1. A website that keeps track of global top scores, which can be posted to by sending a zeroMQ message
 2. A rank retrieval service, that when a run is submitted to the leaderboard, a message is sent giving the leaderboard position for that run
 
@@ -21,3 +21,4 @@ The sending of your score is itself a request. So shortly after the score is sen
 There is an example in the repository (clientExample.js) of what the general interactions should look like. 
 
 ### UML Diagram
+![UML Diagram](https://github.com/C-Tor/leaderboard_microservice/blob/main/UML%20class.png?raw=true)
