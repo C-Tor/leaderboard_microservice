@@ -1,0 +1,19 @@
+<div class="list_container">
+  <h1>Top Runs</h1>
+  <table>
+    <thead>
+      <th>Rank</th>
+      <th>Name</th>
+      <th>Time</th>
+    </thead>
+    <tbody>
+      {{#each runs}}
+      <tr>
+        <td>{{rrank}}</td>
+        <td>{{name}}</td>
+        <td>{{rtime}}</td>
+      </tr>
+      {{/each}}
+    </tbody>
+  </table>
+</div>

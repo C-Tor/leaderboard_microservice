@@ -1,0 +1,27 @@
+{
+  "name": "leaderboard_microservice",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.2",
+    "express-handlebars": "^2.0.1",
+    "express-session": "^1.11.3",
+    "mysql": "^2.8.0",
+    "zeromq": "^5.2.8"
+  },
+  "version": "1.0.0",
+  "description": "Microservice for CS361, leaderboard system for game",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/C-Tor/leaderboard_microservice.git"
+  },
+  "author": "C-Tor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/C-Tor/leaderboard_microservice/issues"
+  },
+  "homepage": "https://github.com/C-Tor/leaderboard_microservice#readme"
+}
