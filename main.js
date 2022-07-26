@@ -22,7 +22,6 @@ app.use(bodyParser.urlencoded({extended:true}));
 //sets port to the argument given after calling the command to start the server (ie node main.js <port>)
 app.set('port', process.argv[2]);
 
-var postCallbackCount;
 sock.on('message', function(request) {
   console.log("== received request: [", request.toString(), "]");
 
